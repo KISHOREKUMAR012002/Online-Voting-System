@@ -1,0 +1,204 @@
+.login-page {
+  background-color: #001024;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-page .div {
+  background-color: #001024;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.login-page .login {
+  position: absolute;
+  width: 682px;
+  height: 552px;
+  top: 190px;
+  left: 0;
+}
+
+.login-page .login-form {
+  position: absolute;
+  width: 363px;
+  height: 374px;
+  top: 233px;
+  left: 787px;
+}
+
+.login-page .group {
+  position: relative;
+  width: 373px;
+  height: 374px;
+}
+
+.login-page .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .overlap {
+  position: absolute;
+  width: 361px;
+  height: 70px;
+  top: 104px;
+  left: 2px;
+}
+
+.login-page .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Padauk-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .rectangle {
+  top: 27px;
+  left: 0;
+  position: absolute;
+  width: 361px;
+  height: 43px;
+  background-color: #ffffff;
+}
+
+.login-page .overlap-group {
+  position: absolute;
+  width: 363px;
+  height: 69px;
+  top: 185px;
+  left: 0;
+}
+
+.login-page .rectangle-2 {
+  top: 26px;
+  left: 2px;
+  position: absolute;
+  width: 361px;
+  height: 43px;
+  background-color: #ffffff;
+}
+
+.login-page .overlap-2 {
+  position: absolute;
+  width: 250px;
+  height: 55px;
+  top: 265px;
+  left: 0;
+}
+
+.login-page .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Padauk-Regular", Helvetica;
+  font-weight: 400;
+  color: #499efd;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .not-a-user-register {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  font-family: "Padauk-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .span {
+  color: #ffffff;
+}
+
+.login-page .text-wrapper-4 {
+  color: #499efd;
+  cursor: pointer;
+}
+
+.login-page .overlap-group-wrapper {
+  position: absolute;
+  width: 182px;
+  height: 43px;
+  top: 400px;
+  left: 0;
+  cursor: pointer;
+}
+
+.login-page .div-wrapper {
+  position: relative;
+  width: 180px;
+  height: 43px;
+  background-color: #015fc7;
+}
+
+.login-page .text-wrapper-5 {
+  position: absolute;
+  top: 11px;
+  left: 62px;
+  font-family: "Padauk-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.input-box {
+  position: relative;
+  top: 100px;
+  margin-top: 30px;
+  color: white;
+  font-family: "Padauk-Bold", Helvetica;
+}
+
+.register-name {
+  width: 320px;
+  padding: 10px;
+}
+
+.label-name {
+  position: relative;
+  bottom: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#submit-btn {
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #015fc7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+#submit-text {
+  color: white;
+  font-family: "Padauk-Bold", Helvetica;
+  font-weight: 700;
+}

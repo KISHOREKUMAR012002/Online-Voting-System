@@ -1,0 +1,272 @@
+.election-page {
+  background-color: #001024;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.election-page .div {
+  background-color: #001024;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.election-page .dashboardnavbar {
+  position: absolute;
+  width: 750px;
+  height: 36px;
+  top: 75px;
+  left: 537px;
+}
+
+.election-page .div-2 {
+  position: absolute;
+  width: 339px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.election-page .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 236px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .line {
+  position: absolute;
+  width: 102px;
+  height: 3px;
+  top: 33px;
+  left: 235px;
+}
+
+.election-page .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 428px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .vote-button {
+  width: 142px;
+  height: 34px;
+  left: 606px;
+  position: absolute;
+  top: 0;
+}
+
+.election-page .overlap-group {
+  position: relative;
+  width: 140px;
+  height: 34px;
+  background-color: #015fc7;
+  border-radius: 5px;
+}
+
+.election-page .text-wrapper-4 {
+  left: 45px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.election-page .text-wrapper-5 {
+  position: absolute;
+  top: 240px;
+  left: 216px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .overlap {
+  position: absolute;
+  top: 295px;
+  left: 216px;
+  width: 1067px;
+  height: 63px;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.election-page .text-wrapper-6 {
+  position: absolute;
+  top: 14px;
+  left: 27px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .text-wrapper-7 {
+  top: 14px;
+  left: 894px;
+  position: absolute;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .text-wrapper-8 {
+  position: absolute;
+  top: 399px;
+  left: 223px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .group {
+  position: absolute;
+  width: 1071px;
+  height: 63px;
+  top: 454px;
+  left: 216px;
+}
+
+.election-page .overlap-2 {
+  position: relative;
+  width: 1067px;
+  height: 63px;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.election-page .text-wrapper-9 {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .text-wrapper-10 {
+  top: 16px;
+  left: 903px;
+  position: absolute;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .overlap-wrapper {
+  position: absolute;
+  width: 1071px;
+  height: 63px;
+  top: 552px;
+  left: 216px;
+}
+
+.election-page .text-wrapper-11 {
+  top: 15px;
+  left: 907px;
+  position: absolute;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .overlap-group-wrapper {
+  position: absolute;
+  width: 1071px;
+  height: 63px;
+  top: 650px;
+  left: 216px;
+}
+
+.election-page .text-wrapper-12 {
+  top: 15px;
+  left: 903px;
+  position: absolute;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .div-wrapper {
+  position: absolute;
+  width: 1071px;
+  height: 63px;
+  top: 748px;
+  left: 216px;
+}
+
+.election-page .text-wrapper-13 {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.election-page .text-wrapper-14 {
+  top: 13px;
+  left: 903px;
+  position: absolute;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="personalinfo.css" />
+  </head>
+  <body>
+    <div class="personal-info">
+      <div class="div">
+        <div class="dashboardnavbar">
+          <div class="text-wrapper" id="text-wrapper">Elections</div>
+          <div class="text-wrapper-2">Contact</div>
+          <div class="group">
+            <div class="overlap-group">
+              <div class="text-wrapper-3">Personal Info</div>
+            </div>
+          </div>
+          <div class="vote-button" id="vote-button">
+            <div class="overlap"><div class="text-wrapper-4">Vote</div></div>
+          </div>
+        </div>
+        <div class="overlap-2">
+          <div class="profile">
+            <div class="div-2">
+              <div class="overlap-3">
+                <div class="text-wrapper-5" id="name"></div>
+                <div class="text-wrapper-6">Name:</div>
+              </div>
+              <div class="overlap-4">
+                <div class="text-wrapper-7" id="age"></div>
+                <div class="text-wrapper-6">Age:</div>
+              </div>
+              <div class="overlap-5">
+                <p class="text-wrapper-5" id="address"></p>
+                <div class="text-wrapper-6">Address</div>
+              </div>
+              <div class="overlap-6">
+                <div class="text-wrapper-7" id="mobileno"></div>
+                <div class="text-wrapper-8">Mobile Number:</div>
+              </div>
+              <div class="overlap-7">
+                <div class="text-wrapper-5" id="email"></div>
+                <div class="text-wrapper-6">Email:</div>
+              </div>
+              <div class="overlap-8">
+                <div class="text-wrapper-7" id="aadhar"></div>
+                <div class="text-wrapper-6">Aadhar Number:</div>
+              </div>
+              <div class="overlap-9">
+                <div class="text-wrapper-5" id="parentname"></div>
+                <div class="text-wrapper-6">Father/Mother’s Name:</div>
+              </div>
+              <div class="overlap-group-2">
+                <div class="text-wrapper-7" id="eligible">True</div>
+                <div class="text-wrapper-6">Eligible:</div>
+              </div>
+              <div class="overlap-10">
+                <div class="text-wrapper-9">True</div>
+                <div class="text-wrapper-6">Verified:</div>
+              </div>
+            </div>
+          </div>
+          <div class="rectangle"></div>
+          <div class="text-wrapper-10">Change profile picture</div>
+
+          <div class="text-wrapper-11">Edit Profile</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var urlParams = new URLSearchParams(window.location.search);
+      var name = urlParams.get("name");
+      var age = urlParams.get("age");
+      var parentname = urlParams.get("parentname");
+      var address = urlParams.get("address");
+      var mobileno = urlParams.get("mobileno");
+      var email = urlParams.get("email");
+      var aadhar = urlParams.get("aadhar");
+
+      if (age >= 18) {
+        document.getElementById("eligible").innerText = "True";
+      } else {
+        document.getElementById("eligible").innerText = "False";
+      }
+
+      document.getElementById("name").innerText = name;
+      document.getElementById("age").innerText = age;
+      document.getElementById("parentname").innerText = parentname;
+      document.getElementById("address").innerText = address;
+      document.getElementById("mobileno").innerText = mobileno;
+      document.getElementById("email").innerText = email;
+      document.getElementById("aadhar").innerText = aadhar;
+
+      document
+        .getElementById("vote-button")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "rules.html";
+        });
+
+      document
+        .getElementById("text-wrapper")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "electionpage.html";
+        });
+    </script>
+  </body>
+</html>

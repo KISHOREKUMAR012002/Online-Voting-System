@@ -1,0 +1,176 @@
+.features {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.features .group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.features .group {
+  position: relative;
+  width: 796px;
+  height: 704px;
+  top: 160px;
+  left: 195px;
+}
+
+.features .overlap-group {
+  position: relative;
+  width: 806px;
+  height: 704px;
+}
+
+.features .line {
+  position: absolute;
+  width: 7px;
+  height: 668px;
+  top: 18px;
+  left: 162px;
+}
+
+.features .text-wrapper {
+  position: absolute;
+  top: 274px;
+  left: -140px;
+  transform: rotate(-90deg);
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 115px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .div {
+  position: absolute;
+  width: 581px;
+  height: 704px;
+  top: 0;
+  left: 225px;
+}
+
+.features .p {
+  position: absolute;
+  top: 10px;
+  left: 141px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #010029;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .text-wrapper-2 {
+  position: absolute;
+  top: 143px;
+  left: 141px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #010029;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .text-wrapper-3 {
+  position: absolute;
+  top: 271px;
+  left: 141px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #010029;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .text-wrapper-4 {
+  position: absolute;
+  top: 389px;
+  left: 141px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #010029;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .text-wrapper-5 {
+  position: absolute;
+  top: 516px;
+  left: 141px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #010029;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .text-wrapper-6 {
+  position: absolute;
+  top: 640px;
+  left: 141px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #010029;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.features .lock {
+  position: absolute;
+  width: 83px;
+  height: 74px;
+  top: 0;
+  left: 0;
+}
+
+.features .img {
+  position: absolute;
+  width: 73px;
+  height: 74px;
+  top: 133px;
+  left: 5px;
+}
+
+.features .approved-delivery {
+  position: absolute;
+  width: 72px;
+  height: 73px;
+  top: 262px;
+  left: 5px;
+}
+
+.features .hand-cursor {
+  position: absolute;
+  width: 74px;
+  height: 75px;
+  top: 379px;
+  left: 4px;
+}
+
+.features .low-price {
+  position: absolute;
+  width: 72px;
+  height: 73px;
+  top: 507px;
+  left: 5px;
+}
+
+.features .time-span {
+  position: absolute;
+  width: 73px;
+  height: 74px;
+  top: 630px;
+  left: 5px;
+}

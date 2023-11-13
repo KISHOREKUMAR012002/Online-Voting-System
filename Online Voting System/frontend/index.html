@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="top-main">
+            <div class="head">
+              <div class="quotes">
+                <div class="overlap-group">
+                  <div class="frame">
+                    <p class="text-wrapper">Be a part of decision</p>
+                  </div>
+                  <div class="div-wrapper">
+                    <div class="div">Vote Today</div>
+                  </div>
+                </div>
+              </div>
+              <div class="buttons">
+                <div class="overlap-2" id="overlap-2">
+                  <div class="rectangle"></div>
+                  <div class="text-wrapper-2">REGISTER</div>
+                </div>
+                <div class="overlap-3" id="overlap-3">
+                  <div class="rectangle-2"></div>
+                  <div class="text-wrapper-3">READ MORE</div>
+                </div>
+              </div>
+            </div>
+            <div class="text-wrapper-4" id="text-wrapper-4">About</div>
+            <div class="text-wrapper-5" id="text-wrapper-5">Contact</div>
+            <div class="login-button" id="login-button">
+              <div class="overlap-4">
+                <div class="text-wrapper-6">Login</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Add a click event listener to the button
+      document
+        .getElementById("overlap-2")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "register.html";
+        });
+
+      document
+        .getElementById("login-button")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "login.html";
+        });
+
+      document
+        .getElementById("overlap-3")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "features.html";
+        });
+
+      document
+        .getElementById("text-wrapper-4")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "about.html";
+        });
+
+      document
+        .getElementById("text-wrapper-5")
+        .addEventListener("click", function () {
+          // Redirect to the registration page
+          window.location.href = "contact.html";
+        });
+    </script>
+  </body>
+</html>

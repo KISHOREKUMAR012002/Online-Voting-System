@@ -1,0 +1,166 @@
+.steps {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.steps .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.steps .overlap-group {
+  position: relative;
+  width: 1031px;
+  height: 804px;
+  top: 110px;
+  left: 182px;
+}
+
+.steps .group {
+  position: absolute;
+  width: 1031px;
+  height: 804px;
+  top: 0;
+  left: 0;
+}
+
+.steps .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.steps .div {
+  position: absolute;
+  width: 736px;
+  height: 622px;
+  top: 182px;
+  left: 0;
+}
+
+.steps .dashicons {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  top: 266px;
+  left: 5px;
+}
+
+.steps .vector {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: 14px;
+  left: 14px;
+}
+
+.steps .registration {
+  position: absolute;
+  width: 95px;
+  height: 93px;
+  top: 0;
+  left: 13px;
+  object-fit: cover;
+}
+
+.steps .p {
+  position: absolute;
+  top: 19px;
+  left: 143px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.steps .ant-design-login {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  top: 133px;
+  left: 6px;
+}
+
+.steps .text-wrapper-2 {
+  position: absolute;
+  top: 152px;
+  left: 143px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.steps .key {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 401px;
+  left: 8px;
+}
+
+.steps .text-wrapper-3 {
+  position: absolute;
+  top: 285px;
+  left: 143px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.steps .text-wrapper-4 {
+  position: absolute;
+  top: 417px;
+  left: 143px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.steps .fa-solid-vote-yea {
+  position: absolute;
+  width: 116px;
+  height: 93px;
+  top: 529px;
+  left: 0;
+}
+
+.steps .text-wrapper-5 {
+  position: absolute;
+  top: 548px;
+  left: 143px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.steps .line {
+  position: absolute;
+  width: 683px;
+  height: 5px;
+  top: 112px;
+  left: 8px;
+}

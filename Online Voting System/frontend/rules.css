@@ -1,0 +1,135 @@
+.rules {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.rules .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.rules .div-2 {
+  position: absolute;
+  width: 989px;
+  height: 636px;
+  top: 146px;
+  left: 229px;
+}
+
+.rules .overlap-group {
+  position: absolute;
+  width: 979px;
+  height: 557px;
+  top: 41px;
+  left: 4px;
+}
+
+.rules .you-as-being-a {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rules .rectangle {
+  position: absolute;
+  width: 979px;
+  height: 557px;
+  top: 0;
+  left: 0;
+  border: 3px solid;
+  border-color: #015fc7;
+}
+
+.rules .this-election-is {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  font-family: "Tienne-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rules .rectangle-2 {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  top: 612px;
+  left: 10px;
+  background-color: #c4c4c4;
+}
+
+.rules .text-wrapper {
+  position: absolute;
+  top: 607px;
+  left: 48px;
+  font-family: "DM Serif Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rules .overlap {
+  position: absolute;
+  width: 148px;
+  height: 40px;
+  top: 809px;
+  left: 1064px;
+  cursor: pointer;
+}
+
+.rules .rectangle-3 {
+  position: absolute;
+  width: 148px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-color: #015fc7;
+}
+
+.rules .text-wrapper-2 {
+  position: absolute;
+  top: 4px;
+  left: 28px;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rules .overlap-2 {
+  position: absolute;
+  width: 148px;
+  height: 40px;
+  top: 809px;
+  left: 890px;
+}
+
+.rules .text-wrapper-3 {
+  position: absolute;
+  top: 4px;
+  left: 36px;
+  font-family: "Tienne-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
